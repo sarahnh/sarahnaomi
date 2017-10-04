@@ -1,0 +1,204 @@
+body {
+  background-color:#5d464d;
+  -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+
+  margin: auto;
+}
+
+div#maincontainer{
+	margin: auto;
+  max-width: 1200px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px auto auto 50px;
+  grid-template-areas: "header header "
+                      "artikkel2 artikkel2 "
+                        "article aside"
+                        "footer footer"
+
+
+
+}
+
+header {
+  grid-area: header;
+  text-align-last: center;
+  font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+  color: white;
+  width: 80%;
+  margin: auto;
+  float:right;
+
+
+
+
+}
+
+
+
+img{
+  grid-area: header;
+
+ height: 500px;
+ width: 1200px;
+}
+
+ #bilde3{
+  grid-area: aside;
+  height: 350px;
+  width: 350px;
+}
+
+#bilde4{
+ grid-area: aside;
+ height: 350px;
+ width: 350px;
+ text-align: center;
+}
+#bilde5{
+ grid-area: aside;
+ height: 350px;
+ width: 350px;
+ text-align: center;
+}
+
+div{
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 19px;
+  padding: 3px 10px;
+
+
+}
+
+.mango{
+  font-family: "Josefin Sant",sans-serif;
+  font-family: "Josefin Sant",sans-serif;
+  border:solid white;
+
+}
+
+.wrapped{
+  font-family: "Josefin Sant",sans-serif;
+  font-family: "Josefin Sant",sans-serif;
+  border:solid white;
+
+}
+.wrapped div{
+  font-family: "Josefin Sant",sans-serif;
+  font-family: 'Indie Flower', cursive;
+
+
+}
+
+
+
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+nav ul li a{
+	line-height: 50px;
+	color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 19px;
+
+
+
+}
+
+table {
+    font-family:'Indie Flower', cursive ;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+/*avsnittene mine*/
+
+
+
+
+h1{
+  text-align: center;
+}
+
+/*linker*/
+
+a:link{
+  color: #b3b3ff;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover {
+  color:#66004d;
+}
+
+
+
+
+/*Frister og kalender*/
+
+
+
+
+/*Artikkel*/
+article {
+  grid-area: article;
+  width: 25%;
+  float: left;
+  padding: 25px;
+  font-family: "Josefin Sant",sans-serif;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+
+}
+
+
+.artikkel2{
+  grid-area: artikkel2;
+  font-family: "Josefin Sant",sans-serif;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+aside{
+  grid-area: aside;
+  width: 94%;
+  padding: 15px;
+  font-family: "Josefin Sant",sans-serif;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+
+
+/*bunnen*/
+footer{
+  grid-area: footer;
+
+
+  text-align:center;
+  color: white;
+
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+}
